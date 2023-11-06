@@ -62,9 +62,9 @@
                 <label for="">Club you want to apply</label>
                 <div class="left">
                 <select name="option" id="option">
-                    <option value="robotic">Robotic club</option>
-                    <option value="coding">Coding club</option>
-                    <option value="music">Music club</option>
+                    <option value="robotic club">Robotic club</option>
+                    <option value="coding club">Coding club</option>
+                    <option value="music club">Music club</option>
                 </select>
                 </div>
             </div>
