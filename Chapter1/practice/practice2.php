@@ -13,33 +13,33 @@
 //     }
 // }
 
-//tính giai thừa
-// công thức toán n! = n × (n – 1) × (n – 2) × … × 2 × 1
-$number = 17; // 5*4*3*2*1
-//number =17 output =1307674368000
-// chỉ tính các số trong khoảng từ 1->15
-if($number>15){
-    $number=15;
-}
-$giaithua=1;
-for ($i=0; $i <$number; $i++) {
-        $giaithua *=($number-$i);
-}
-echo $giaithua;
+// //tính giai thừa
+// // công thức toán n! = n × (n – 1) × (n – 2) × … × 2 × 1
+// $number = 17; // 5*4*3*2*1
+// //number =17 output =1307674368000
+// // chỉ tính các số trong khoảng từ 1->15
+// if($number>15){
+//     $number=15;
+// }
+// $giaithua=1;
+// for ($i=0; $i <$number; $i++) {
+//         $giaithua *=($number-$i);
+// }
+// echo $giaithua;
 
 // //Kiểm tra 1 số N có phải là số nguyên tố hay không. In ra màn hình các số nguyên tố < 100
-// for ($i=2; $i <= 100; $i++) { 
-//     $bool =true;
-//     for ($j=2; $j < $i; $j++) { 
-//         if ($i%$j==0) {
-//             $bool=false;
-//             break;
-//         }
-//     }
-//     if($bool==true){
-//         print_r($i ." ");
-//     } 
-// }
+for ($i=2; $i <= 100; $i++) { 
+    $bool =true;
+    for ($j=2; $j < $i; $j++) { 
+        if ($i%$j==0) {
+            $bool=false;
+            break;
+        }
+    }
+    if($bool==true){
+        print_r($i ." ");
+    } 
+}
 
 // //in bảng cửu chương
 // for ($i=2; $i < 10; $i++) { 
@@ -49,8 +49,8 @@ echo $giaithua;
 //     echo "\n";
 // }
 
-// // vẽ bàn cờ vua
-// //cách 1
+// vẽ bàn cờ vua
+//cách 1
 // for ($i=0;$i<8;$i++){
 //     if($i%2==0){
 //         for ($j=0; $j < 8; $j++) { 

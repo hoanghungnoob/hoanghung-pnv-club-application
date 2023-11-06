@@ -10,4 +10,5 @@ while ($i < count($number)) {
     echo $number[$i];
     $i++;
 }
+
 ?>
